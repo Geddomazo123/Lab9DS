@@ -59,7 +59,7 @@ def update_graph(option_slctd):
     print(option_slctd)
     print(type(option_slctd))
 
-    container = "The year chosen by user was: {}".format(option_slctd)
+    container = "Los combustibles seleccionados son: {}".format(option_slctd)
 
     dff = df.copy()
     dfpred=df.copy()
